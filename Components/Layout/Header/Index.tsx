@@ -6,7 +6,7 @@ const Index = () => {
    
   return (
     <>
-          <div className="header border w-full h-auto py-4 inline-flex justify-between items-center bg-black text-white">
+          <div className="inline-flex items-center justify-between w-full h-auto py-4 text-white bg-black border header">
               <Logo />
               <HeaderLinks />
           </div>
