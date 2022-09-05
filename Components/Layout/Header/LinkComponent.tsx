@@ -10,7 +10,7 @@ import React from 'react'
         
         return (
             <>
-                <li>
+                <li className='hover:underline'>
                    <Link href={`${slugUrl.toLowerCase()}`}>
                         <a>{ Name.toUpperCase()}</a>
                     </Link>
