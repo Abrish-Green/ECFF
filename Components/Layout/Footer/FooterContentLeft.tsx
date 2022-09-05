@@ -5,7 +5,7 @@ import SocialMediaIcons from "./SocialMediaIcons";
 const FooterContentLeft = () => {
   return (
     <>
-      <div className="border md:col-span-2 social-media p-12 px-12">
+      <div className=" md:col-span-2 social-media p-12 px-12">
         <div className="footer-title">
           <Logo />
         </div>
