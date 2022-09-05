@@ -9,10 +9,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Environment and Coffee Forest Forum (ECFF). Institution. Section overview. Activities; Involved in research projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-5xl font-bold underline">
-            Hello world!
-          </h1>
-      
+    
     </div>
   )
 }
