@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderLinks from './HeaderLinks';
-import Logo from './LogoComponent';
+import Logo from '../../Shared/LogoComponent';
 
 const Index = () => {
    
