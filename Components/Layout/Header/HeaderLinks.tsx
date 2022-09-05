@@ -5,8 +5,8 @@ const LinkMenus = ['home','about', 'projects', 'publications', 'partners', 'cont
 
 const HeaderLinks = () => {
   return (
-    <div className="header-links px-10">
-                  <ul className="list-none inline-flex gap-6 font-robo font-thin text-md tracking-wide">
+    <div className="px-10 header-links">
+                  <ul className="inline-flex gap-6 text-lg list-none font-robo">
                       {
                           LinkMenus ? LinkMenus.map((menu)=> <LinkComponent key={menu} Name={menu} />) : null
                      }
