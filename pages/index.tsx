@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../Components/Layout/Header/Index'
 import Footer from '../Components/Layout/Footer/Index'
+import Script from 'next/script'
+
 const Home: NextPage = () => {
   return (
     <div className="">
@@ -16,6 +18,8 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
       </Head>
+            <Script src="https://cdn.tailwindcss.com"></Script>
+
       <Header />
       <Footer />
     </div>
